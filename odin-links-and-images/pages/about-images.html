@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of img files</title>
+</head>
+<body>
+    <h1>How to use images based on file type</h1>
+    <h2>. jpg</h2>
+    <p>Designed to handle large color palettes without
+        increasing file size dramatically</p>
+    <img src="../images/mochi.jpg" alt="A mochi jpg">
+    <p>That is a jpg image</p>
+
+    <h2>. gif</h2>
+    <p>The go-to options for simple animations,
+         but they are limited in color palette. Never use them for photos. 
+         Pixels in a gif are either transparent or opaque, no in between. 
+    </p>
+    <img src="../images/mochi.gif" alt="mochi gif">
+    <p>That's a gif file</p>
+
+    <h2>. png</h2>
+    <p>Great for anything that isn' a photos 
+        or an animation. Ideal for icons, diagrams, logos, etc.
+    </p>
+    <img src="../images/mochi.png" alt="mochi png">
+    <p>Here is a png file</p>
+
+    <h2>. svg</h2>
+    <p>SVG is a vector-based graphics format, rather than pixel-based like 
+        the above formats. This means it can scale up or down
+         to <em>any</em> dimension without loss of quality. They're
+         good for basically the same uses as PNG. You should
+         use them whenever you can.
+    </p>
+    <img src="../images/mochi.svg" alt="mochi svg">
+    <p>That's an svg file</p>
+    <p>There is one potential issue with SVGs: for them 
+        to display consistently across browsers, you need to 
+        convert any text fields to outlines using your image
+         editor. If your image contains lots of text, it will 
+         have a big impact on file size.
+    </p>
+
+    <h2>Image Dimensions</h2>
+    <p>By default, the img element inherits the dimensions 
+        of the image file. Those jpg, gif, png images are 
+        150x150 pixel, while the svg is 75x75.
+    </p>
+    <p>Pixel-based image formats need to be twice as big as you want
+         them to appear on retina displays. We can scale 
+         our pixel-based images down in size by using 
+         the img attribute width='75'.
+    </p>
+    <img src="../images/mochi.jpg" alt="jpg" width="75">
+    <img src="../images/mochi.gif" alt="gif" width="75">
+    <img src="../images/mochi.png" alt="png" width="75">
+
+    <p>Those were all scaled down to 75px width</p>
+
+    <p> <strong> This is just an example of scaling, we should 
+        be scaling images with CSS using media queries.</strong>
+    </p>
+
+    <p>How about scaling the svg up by a multiple of 10 to 750 width?</p>
+
+    <img src="../images/mochi.svg" alt="svg" width="750">
+
+    <p><em>Still</em> crispy!!!</p>
+
+    
+</body>
+</html>
