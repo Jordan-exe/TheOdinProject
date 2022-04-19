@@ -1,0 +1,55 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+header {
+    background-color: rgba(0,0,0,0.1);
+}
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    background-color: rgba(200, 120, 0, 0.4);
+}
+
+p {
+    background-color: aliceblue;
+}
+
+ul, ol {
+    width: 500px;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+
+li {
+    padding-top: 5px;
+    width: 400px;
+    margin: 0px auto;
+}
+
+img {
+    display: block;
+    width: 300px;
+    margin: 0px auto;
+}
+
+.flag {
+    width: 500px;
+}
+div {
+    margin: 0px;
+}
+#div1 {
+    background-color: aliceblue;
+}
+
+#div2 {
+    background-color: azure;
+}
+
+#div3 {
+    background-color: aliceblue;
+}
+
+
